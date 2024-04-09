@@ -38,12 +38,12 @@ function Profile() {
           <Grid container justifyContent="center" py={6}>
             <Grid item xs={12} md={7} mx={{ xs: "auto", sm: 6, md: 1 }}>
               <MKBox display="flex" justifyContent="space-between" alignItems="center" mb={1}>
-                <MKTypography variant="h3">Michael Roven</MKTypography>
+                <MKTypography variant="h3">Natalia Ramos</MKTypography>
                 <MKButton variant="outlined" color="info" size="small">
-                  Follow
+                  Ver curriculum
                 </MKButton>
               </MKBox>
-              <Grid container spacing={3} mb={3}>
+              {/*<Grid container spacing={3} mb={3}>
                 <Grid item>
                   <MKTypography component="span" variant="body2" fontWeight="bold">
                     323&nbsp;
@@ -68,11 +68,16 @@ function Profile() {
                     Following
                   </MKTypography>
                 </Grid>
-              </Grid>
+  </Grid>*/}
               <MKTypography variant="body1" fontWeight="light" color="text">
-                Decisions: If you can&apos;t decide, the answer is no. If two equally difficult
-                paths, choose the one more painful in the short term (pain avoidance is creating an
-                illusion of equality). Choose the path that leaves you more equanimous. <br />
+              <p><strong>Edad:</strong> 22 años</p>
+                <p><strong>Profesión:</strong> Ingeniero de software</p>
+                <p><strong>Descripción:</strong> Soy una joven apasionada por
+                 el diseño y la creatividad. Me encanta explorar nuevas ideas
+                  y plasmarlas en proyectos visualmente impactantes. 
+                  Con experiencia en diseño gráfico y desarrollo web, 
+                  estoy lista para enfrentar desafíos y contribuir 
+                  con mi creatividad a cualquier equipo.</p>
                 <MKTypography
                   component="a"
                   href="#"
@@ -95,7 +100,158 @@ function Profile() {
                     },
                   }}
                 >
-                  More about me <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+                  Saber más sobre mi <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+                </MKTypography>
+              </MKTypography>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Container>
+      <Container>
+        <Grid container item xs={12} justifyContent="center" mx="auto">
+          <MKBox mt={{ xs: -16, md: -5 }} textAlign="center">
+            <MKAvatar src={profilePicture} alt="Burce Mars" size="xxl" shadow="xl" />
+          </MKBox>
+          <Grid container justifyContent="center" py={6}>
+            <Grid item xs={12} md={7} mx={{ xs: "auto", sm: 6, md: 1 }}>
+              <MKBox display="flex" justifyContent="space-between" alignItems="center" mb={1}>
+                <MKTypography variant="h3">Carla Martínez</MKTypography>
+                <MKButton variant="outlined" color="info" size="small">
+                  Ver curriculum
+                </MKButton>
+              </MKBox>
+              {/*<Grid container spacing={3} mb={3}>
+                <Grid item>
+                  <MKTypography component="span" variant="body2" fontWeight="bold">
+                    323&nbsp;
+                  </MKTypography>
+                  <MKTypography component="span" variant="body2" color="text">
+                    Posts
+                  </MKTypography>
+                </Grid>
+                <Grid item>
+                  <MKTypography component="span" variant="body2" fontWeight="bold">
+                    3.5k&nbsp;
+                  </MKTypography>
+                  <MKTypography component="span" variant="body2" color="text">
+                    Followers
+                  </MKTypography>
+                </Grid>
+                <Grid item>
+                  <MKTypography component="span" variant="body2" fontWeight="bold">
+                    260&nbsp;
+                  </MKTypography>
+                  <MKTypography component="span" variant="body2" color="text">
+                    Following
+                  </MKTypography>
+                </Grid>
+  </Grid>*/}
+              <MKTypography variant="body1" fontWeight="light" color="text">
+              <p><strong>Edad:</strong> 26 años</p>
+                <p><strong>Profesión:</strong> Ingeniero de software</p>
+                <p><strong>Descripción:</strong> Como estudiante de comunicación audiovisual, 
+                me apasiona el mundo del cine y la producción multimedia. Con habilidades
+                 en edición de video y diseño de contenido, busco oportunidades para aplicar
+                  mi creatividad y conocimientos en proyectos que despierten emociones y 
+                  cuenten historias cautivadoras.</p>
+                <MKTypography
+                  component="a"
+                  href="#"
+                  variant="body1"
+                  fontWeight="light"
+                  color="info"
+                  mt={3}
+                  sx={{
+                    width: "max-content",
+                    display: "flex",
+                    alignItems: "center",
+
+                    "& .material-icons-round": {
+                      transform: `translateX(3px)`,
+                      transition: "transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1.3)",
+                    },
+
+                    "&:hover .material-icons-round, &:focus .material-icons-round": {
+                      transform: `translateX(6px)`,
+                    },
+                  }}
+                >
+                  Saber más sobre mi <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
+                </MKTypography>
+              </MKTypography>
+            </Grid>
+          </Grid>
+        </Grid>
+      </Container>
+      <Container>
+        <Grid container item xs={12} justifyContent="center" mx="auto">
+          <MKBox mt={{ xs: -16, md: -5 }} textAlign="center">
+            <MKAvatar src={profilePicture} alt="Burce Mars" size="xxl" shadow="xl" />
+          </MKBox>
+          <Grid container justifyContent="center" py={6}>
+            <Grid item xs={12} md={7} mx={{ xs: "auto", sm: 6, md: 1 }}>
+              <MKBox display="flex" justifyContent="space-between" alignItems="center" mb={1}>
+                <MKTypography variant="h3">Rubén López</MKTypography>
+                <MKButton variant="outlined" color="info" size="small">
+                  Ver curriculum
+                </MKButton>
+              </MKBox>
+              {/*<Grid container spacing={3} mb={3}>
+                <Grid item>
+                  <MKTypography component="span" variant="body2" fontWeight="bold">
+                    323&nbsp;
+                  </MKTypography>
+                  <MKTypography component="span" variant="body2" color="text">
+                    Posts
+                  </MKTypography>
+                </Grid>
+                <Grid item>
+                  <MKTypography component="span" variant="body2" fontWeight="bold">
+                    3.5k&nbsp;
+                  </MKTypography>
+                  <MKTypography component="span" variant="body2" color="text">
+                    Followers
+                  </MKTypography>
+                </Grid>
+                <Grid item>
+                  <MKTypography component="span" variant="body2" fontWeight="bold">
+                    260&nbsp;
+                  </MKTypography>
+                  <MKTypography component="span" variant="body2" color="text">
+                    Following
+                  </MKTypography>
+                </Grid>
+  </Grid>*/}
+              <MKTypography variant="body1" fontWeight="light" color="text">
+              <p><strong>Edad:</strong> 30 años</p>
+                <p><strong>Profesión:</strong> Ingeniero de software</p>
+                <p><strong>Descripción:</strong> Soy un profesional dedicado y apasionado por la tecnología. 
+                Tengo experiencia en desarrollo web y móvil, así como en gestión de proyectos. Me considero 
+                creativo, proactivo y siempre busco aprender nuevas habilidades y tecnologías. En mi tiempo
+                 libre, me gusta practicar deportes al aire libre y leer sobre ciencia ficción.</p>
+                <MKTypography
+                  component="a"
+                  href="#"
+                  variant="body1"
+                  fontWeight="light"
+                  color="info"
+                  mt={3}
+                  sx={{
+                    width: "max-content",
+                    display: "flex",
+                    alignItems: "center",
+
+                    "& .material-icons-round": {
+                      transform: `translateX(3px)`,
+                      transition: "transform 0.2s cubic-bezier(0.34, 1.61, 0.7, 1.3)",
+                    },
+
+                    "&:hover .material-icons-round, &:focus .material-icons-round": {
+                      transform: `translateX(6px)`,
+                    },
+                  }}
+                >
+                  Saber más sobre mi <Icon sx={{ fontWeight: "bold" }}>arrow_forward</Icon>
                 </MKTypography>
               </MKTypography>
             </Grid>

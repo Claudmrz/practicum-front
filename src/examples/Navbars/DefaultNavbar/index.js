@@ -30,7 +30,7 @@ import Grow from "@mui/material/Grow";
 import Grid from "@mui/material/Grid";
 import Divider from "@mui/material/Divider";
 import MuiLink from "@mui/material/Link";
-import Logo from "assets/images/logo.png"; /*no funciona*/
+import Logo from "assets/images/logo2.png"; 
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
@@ -478,7 +478,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
             pl={relative || transparent ? 0 : { xs: 0, lg: 1 }}
           >
             <MKTypography variant="button" fontWeight="bold" color={light ? "dark" : "dark"}>
-              {brand}
+            <img src={brand} className="img-fluid" style={{ width: '60px', height: 'auto' }}/>
             </MKTypography>
           </MKBox>
           <MKBox
@@ -552,7 +552,7 @@ function DefaultNavbar({ brand, routes, transparent, light, action, sticky, rela
 
 // Setting default values for the props of DefaultNavbar
 DefaultNavbar.defaultProps = {
-  brand: "LOGO",
+  brand: Logo,
   transparent: false,
   light: false,
   action: false,

@@ -1,18 +1,3 @@
-/**
-=========================================================
-* Material Kit 2 React - v2.1.0
-=========================================================
-
-* Product Page: https://www.creative-tim.com/product/material-kit-react
-* Copyright 2023 Creative Tim (https://www.creative-tim.com)
-
-Coded by www.creative-tim.com
-
- =========================================================
-
-* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-*/
-
 import { useEffect } from "react";
 
 // react-router components
@@ -27,7 +12,7 @@ import theme from "assets/theme";
 
 // Material Kit 2 React routes
 import routes from "routes";
-import SignInPage from "layouts/pages/authentication/sign-in";
+import SignInPage from "pages/LandingPages/SignIn";
 
 export default function App() {
   const { pathname } = useLocation();

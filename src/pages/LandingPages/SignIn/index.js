@@ -61,7 +61,7 @@ function SignInBasic() {
           color: "info",
         }} (botton azul derecha arriba) */ 
         transparent
-        light
+        light={false}
       />
       <MKBox
         position="absolute"
